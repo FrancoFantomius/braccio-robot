@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="404.css">
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='Logo.gif') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='404.css') }}">
+        <title>404</title>
+    </head>
+    <body>
+        <h1 class="tit">404</h1>
+        <div class="desk">😱: Oh no! Il contenuto non è disponibile</div>
+        <br><br>
+        <Button onclick="location.href='/'" class="BT">Vai alla home page</Button>
+    </body>
+</html>

@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background: rgb(13, 152, 187);
+}
+
+h1{
+    font-family: 'MuseoModerno', cursive;
+}
+
+p{
+    /*font-family: Calibri;*/
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+.vid{
+    border-radius: 12px;
+}
